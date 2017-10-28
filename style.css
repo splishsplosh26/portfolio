@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25em;
+}
+
+img {
+  height: 50%;
+  width: 50%;
+}
+
+header {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, rgb(242,191,50), rgb(226,60,27));
+}
+
+nav {
+  background-color: rgb(51,48,45);
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  color: white;
+  padding: 1em;
+  margin: none;
+}
+
+header main {
+  text-align: center;
+  font-size: 1.25em;
+  padding-top: 3em;
+}
+
+header main img {
+  padding: 1em;
+  padding-bottom: 2em;
+}
+
+.about-me {
+  padding: 3em 0;
+  line-height: 2;
+  background-color: rgb(51,48,45);
+  color: white;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.projects {
+  padding: 3em 0;
+  line-height: 2;
+  background-color: rgb(220,220,220)
+}
+
+.projects img {
+  width: 30%;
+  padding: 30px 30px 30px 0;
+}
